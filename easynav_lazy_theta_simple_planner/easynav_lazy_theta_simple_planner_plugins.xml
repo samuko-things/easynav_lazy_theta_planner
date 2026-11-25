@@ -1,0 +1,9 @@
+<class_libraries>
+  <library path="easynav_lazy_theta_simple_planner">
+    <class name="easynav_lazy_theta_simple_planner/LazyThetaSimplePlanner"  type="easynav::LazyThetaSimplePlanner" base_class_type="easynav::PlannerMethodBase">
+      <description>
+      Lazy Theta Planner Plugin for EasyNav
+      </description>
+    </class>
+  </library>
+</class_libraries>

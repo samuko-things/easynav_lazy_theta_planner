@@ -1,0 +1,9 @@
+<class_libraries>
+  <library path="easynav_lazy_theta_costmap_planner">
+    <class name="easynav_lazy_theta_costmap_planner/LazyThetaCostmapPlanner"  type="easynav::LazyThetaCostmapPlanner" base_class_type="easynav::PlannerMethodBase">
+      <description>
+      Lazy Theta Planner Plugin for EasyNav
+      </description>
+    </class>
+  </library>
+</class_libraries>
