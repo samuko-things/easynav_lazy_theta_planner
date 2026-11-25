@@ -2,10 +2,17 @@
 
 *A lightweight Lazy Theta-P planner for ROS 2 [EasyNav](https://github.com/EasyNavigation)*
 
+**easynav_lazy_theta_simple_planner**
+</br>
+
 ![simple_planner_test](./easynav_lazy_simple_planner.gif)
 </br>
 
+**easynav_lazy_theta_costmap_planner**
+</br>
+
 ![simple_planner_test](./easynav_lazy_costmap_planner.gif)
+</br>
 
 **easynav_lazy_theta_planner** is a ROS 2 [EasyNav](https://github.com/EasyNavigation) planner plugin implementing Lazy Theta*, an any-angle pathfinding algorithm for grid-based navigation.</br>
 Unlike conventional grid-based planners that produce paths constrained to grid edges, Lazy Theta* can generate paths with fewer directional changes and more direct trajectories.</br>
@@ -34,6 +41,24 @@ The planner is experimental and open for anyone to try, test, and contribute to.
 ---
 
 ### Example Usage
+
+**easynav_lazy_theta_simple_planner**
+</br>
+
+```yaml
+planner_node:
+  ros__parameters:
+    use_sim_time: true
+    planner_types: [simple]
+    simple:
+      freq: 0.5
+      plugin: easynav_lazy_theta_simple_planner/LazyThetaSimplePlanner
+      robot_radius: 0.15
+```
+
+**easynav_lazy_theta_costmap_planner**
+</br>
+
 ```yaml
 planner_node:
   ros__parameters:
