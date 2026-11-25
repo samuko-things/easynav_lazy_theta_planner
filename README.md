@@ -83,6 +83,12 @@ planner_node:
 
 ---
 
+### Quick Naviagtion Test
+
+I have prepare a simple helloworld navigation project to test the *EasyNav Lazy Theta Planner* check it out [**HERE**](https://github.com/samuko-things/helloworld_navigation/tree/easynav-test)
+
+---
+
 ### 📚 Reference Resources:
 
 - **Lazy Theta*** - Alex Nash et al.  
@@ -110,9 +116,9 @@ Special thanks to the authors and developers of the referenced algorithms, resea
 
 ---
 
-### MoboBot (Implementation)
+### MoboBot
 
-[MoboBot](https://github.com/robocre8/mobo_bot) is a robotics project developed by [samuko-things](https://github.com/samuko-things) under [robocre8](https://github.com/robocre8).
+[MoboBot](https://github.com/robocre8/mobo_bot) is a ROS2-based mobile robot developed by [samuko-things](https://github.com/samuko-things) under [robocre8](https://github.com/robocre8). Pls check it out also
 
 ---
 
