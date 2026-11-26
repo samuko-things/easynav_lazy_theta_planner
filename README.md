@@ -117,8 +117,10 @@ Special thanks to the authors and developers of the referenced algorithms, resea
 ---
 
 ### MoboBot
+> [!NOTE]
+> the **easynav_lazy_theta_planner** is now being used as the default planner of MoboBot while performing navigation using EasyNav.
 
-[MoboBot](https://github.com/robocre8/mobo_bot) is a ROS2-based mobile robot developed by [samuko-things](https://github.com/samuko-things) under [robocre8](https://github.com/robocre8). Pls check it out also
+[MoboBot](https://github.com/robocre8/mobo_bot/tree/jazzy-easynav) is a ROS2-based mobile robot developed by [samuko-things](https://github.com/samuko-things) under [robocre8](https://github.com/robocre8). Pls check it out also
 
 ---
 
